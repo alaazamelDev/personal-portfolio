@@ -142,7 +142,8 @@ img {
 }
 
 .grid {
-  display: grid;
+  /* check fir customizations */
+  display: flex; 
   gap: 1.5rem;
 }
 
@@ -189,6 +190,7 @@ img {
 
 /* For medium devices */
 @media screen and (max-width: 768px) {
+
   body {
     margin: 0 0 var(--header-height) 0;
   }
