@@ -3,7 +3,7 @@ import Info from "./Info";
 
 // styling
 import "./about.css";
-import aboutImage from "../../assets/about.jpg";
+import aboutImage from "../../assets/alaa.jpg";
 
 // assets
 import CV from "../../assets/John-Cv.pdf";

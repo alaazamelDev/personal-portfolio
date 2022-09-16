@@ -55,7 +55,7 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle"> Mobile Developer</h3>
+      <h3 className="home__subtitle"> Full-Stack Mobile Developer</h3>
       <p className="home__description">
         I'm a creative mobile apps developer and software engineering student
         based in Syria, and I'm very passionate and dedicated to my work.
