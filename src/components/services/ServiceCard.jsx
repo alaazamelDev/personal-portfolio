@@ -3,7 +3,9 @@ import { useState } from "react";
 
 const ServiceCard = ({ service }) => {
   // add line breaks in long titles
-  const brokenTitle = service.title.split("\n").map((str) => <p>{str}</p>);
+  const brokenTitle = service.title
+    .split("\n")
+    .map((str) => <p key={str}>{str}</p>);
   const [showDetails, setShowDetails] = useState(false);
   return (
     <div className="services__content">
@@ -42,8 +44,8 @@ const ServiceCard = ({ service }) => {
           <p className="services__modal-description">{service.description}</p>
 
           <ul className="services__modal-services grid">
-            {service.features.map((feature,i) => {
-              return <ServivceFeature feature={feature} />;
+            {service.features.map((feature, i) => {
+              return <ServivceFeature key={i * 63} feature={feature} />;
             })}
           </ul>
         </div>
