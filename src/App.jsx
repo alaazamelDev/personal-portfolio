@@ -7,6 +7,7 @@ import Services from "./components/services/Services";
 
 // styling
 import "./App.css";
+import Qualifications from "./components/qualifications/Qualifications";
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <About />
         <Skills />
         <Services />
+        <Qualifications />
       </main>
     </>
   );
