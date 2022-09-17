@@ -26,6 +26,10 @@
     font-size: var(--small-font-size);
 }
 
+.testimonial__card-link {
+    color: inherit;
+}
+
 /* Swiper Class Styling */
 .swiper-pagination-bullet {
     background-color: var(--text-color) !important;
@@ -39,7 +43,7 @@
         width: initial;
     }
 
-    .testimonial__card{
+    .testimonial__card {
         padding: 1.25rem 1.5rem;
     }
 }
