@@ -11,6 +11,7 @@ import Footer from "./components/footer/Footer";
 
 // styling
 import "./App.css";
+import ScrollUp from "./components/scrollup/Scrollup";
 
 const App = () => {
   return (
@@ -24,8 +25,10 @@ const App = () => {
         <Qualifications />
         <Testimonials />
         <Contact />
-        <Footer />
       </main>
+
+      <Footer />
+      <ScrollUp />
     </>
   );
 };
