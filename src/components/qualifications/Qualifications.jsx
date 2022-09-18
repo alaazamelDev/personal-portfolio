@@ -155,8 +155,7 @@ const EducationQualification = () => {
         </div>
       </div>
 
-      <div className="qualification__data">
-        {/* Qualification Object */}
+      {/* <div className="qualification__data">
         <div>
           <h3 className="qualification__title">High School</h3>
           <span className="qualification__subtitle">Nour Fater Traiz</span>
@@ -166,12 +165,11 @@ const EducationQualification = () => {
           </div>
         </div>
 
-        {/* Qualification dot */}
         <div>
           <span className="qualification__rounder"></span>
           <span className="qualification__line"></span>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
