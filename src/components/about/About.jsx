@@ -3,10 +3,10 @@ import Info from "./Info";
 
 // styling
 import "./about.css";
-import aboutImage from "../../assets/alaa.jpg";
 
 // assets
-import CV from "../../assets/John-Cv.pdf";
+import aboutImage from "../../assets/alaa.jpg";
+import CV from "../../assets/Alaa-CV.pdf";
 
 const About = () => {
   return (
@@ -20,10 +20,10 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            I create apps for Android & ios that have a
-            great looking & fully responsive UI/UX. I have 3 years of experience
-            in Mobile Development, and have a great experience with many clients
-            which are happy with the projects I carried out.
+            I create apps for Android & ios that have a great looking & fully
+            responsive UI/UX. I have 3 years of experience in Mobile
+            Development, and have a great experience with many clients which are
+            happy with the projects I carried out.
           </p>
 
           <a download="" href={CV} className="button button--flex">
