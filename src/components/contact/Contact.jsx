@@ -42,18 +42,21 @@ const Contact = () => {
               fieldValue={"alaa.zamel80@gmail.com"}
               url={"mailto:alala.zamel80@gmail.com"}
               icon={"bx bx-mail-send"}
+              buttonTitle={"Email me"}
             />
             <ContactInfoCard
               fieldName={"Phone Number"}
               fieldValue={"+963991146587"}
               url={"tel:+963991146587"}
               icon={"bx bx-phone"}
+              buttonTitle={"Call me"}
             />
             <ContactInfoCard
               fieldName={"Whatsapp"}
               fieldValue={"+963991146587"}
               url={"https://api.whatsapp.com/send?phone=963991146587&text=Hi"}
               icon={"bx bxl-whatsapp"}
+              buttonTitle={"Message me"}
             />
           </div>
         </div>
