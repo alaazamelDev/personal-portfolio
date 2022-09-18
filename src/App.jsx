@@ -6,6 +6,7 @@ import Skills from "./components/skills/Skills";
 import Services from "./components/services/Services";
 import Qualifications from "./components/qualifications/Qualifications";
 import Testimonials from "./components/testimonials/Testimonials";
+import Contact from "./components/contact/Contact";
 
 // styling
 import "./App.css";
@@ -21,6 +22,7 @@ const App = () => {
         <Services />
         <Qualifications />
         <Testimonials />
+        <Contact />
       </main>
     </>
   );

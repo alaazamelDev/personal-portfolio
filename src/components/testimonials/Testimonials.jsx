@@ -17,14 +17,14 @@ import { feedbacks } from "../../models/testimonial";
 
 const Testimonials = () => {
   return (
-    <section className="testimonial container section">
+    <section className=" container section">
       <h3 className="section__title">Testimonials</h3>
       <span className="section__subtitle">What do My clients say?</span>
 
       <Swiper
         className="testimonial__container"
         loop={true}
-        spaceBetween={24}
+        spaceBetween={12}
         grabCursor={true}
         pagination={{
           clickable: true,
@@ -35,14 +35,14 @@ const Testimonials = () => {
           },
           768: {
             slidesPerView: 2,
-            spaceBetween: 48,
+            spaceBetween: 24,
           },
         }}
         modules={[Pagination]}
       >
         {feedbacks.map((feedback) => {
           return (
-            <SwiperSlide key={feedback.id}>
+            <SwiperSlide key={feedback.id} style={{ height: "100%" }}>
               <FeedbackCard feedback={feedback} />
             </SwiperSlide>
           );
