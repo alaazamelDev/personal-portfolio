@@ -17,7 +17,7 @@ import { feedbacks } from "../../models/testimonial";
 
 const Testimonials = () => {
   return (
-    <section className=" container section">
+    <section className=" container section" id="testimonials">
       <h3 className="section__title">Testimonials</h3>
       <span className="section__subtitle">What do My clients say?</span>
 
