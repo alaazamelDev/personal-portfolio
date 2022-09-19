@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 // styling
 import "./App.css";
 import ScrollUp from "./components/scrollup/Scrollup";
+import Portfolio from "./components/portfolio/Portfolio";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Skills />
         <Services />
         <Qualifications />
+        <Portfolio />
         <Testimonials />
         <Contact />
       </main>
