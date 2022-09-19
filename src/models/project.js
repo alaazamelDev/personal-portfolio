@@ -65,6 +65,6 @@ export const WEB_PROJECTS = [
     title: "My Personal Portfolio",
     description:
       "a Simple website built with React.js to represent information, skills and previous projects in an organized way, and it can be created easily.",
-    url: "https://github.com/alaazamelDev/real_estate_application_flutter.git",
+    url: "https://github.com/alaazamelDev/personal-portfolio.git",
   }),
 ];
